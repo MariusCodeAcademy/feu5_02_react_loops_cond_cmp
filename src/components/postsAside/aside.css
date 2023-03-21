@@ -1,0 +1,18 @@
+.postAside {
+}
+.paHeader {
+  background-color: #333;
+  color: white;
+  margin: 0;
+  padding: 10px 16px;
+}
+
+.paGrid {
+  padding: 16px;
+  display: grid;
+  grid-template-columns: 55px auto;
+  column-gap: 16px;
+}
+.paGrid > img {
+  grid-row: span 2;
+}
