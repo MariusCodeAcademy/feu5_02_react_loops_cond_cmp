@@ -6,7 +6,7 @@ function App() {
     <div className='App'>
       <h1>
         My app
-        <Icon icon='shower' />
+        {/* <Icon icon='shower' /> */}
         <i class='fa fa-shower' aria-hidden='true'></i>
       </h1>
       <main></main>
