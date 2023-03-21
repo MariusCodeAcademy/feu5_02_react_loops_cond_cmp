@@ -7,7 +7,7 @@ function PostsAside() {
     <div className='postAside'>
       <PostsAsideHeader />
       <SinglePostAside img={'/img/smoke.jpg'} title={'Denim'} />
-      <SinglePostAside img={'/img/cam.jpg'} title={'Sweaters'} />
+      <SinglePostAside img={'/img/cam.jpg'} title={'Sweaters'} isSpecial />
       <SinglePostAside img={'/img/work.jpg'} title={'Workshop'} />
     </div>
   );

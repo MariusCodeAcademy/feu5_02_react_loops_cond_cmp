@@ -16,3 +16,7 @@
 .paGrid > img {
   grid-row: span 2;
 }
+
+.specialPost {
+  background-color: rgb(202, 202, 202);
+}
