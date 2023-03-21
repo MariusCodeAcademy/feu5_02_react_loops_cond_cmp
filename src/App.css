@@ -41,3 +41,9 @@ p {
 .sectionPart p {
   line-height: 1.5;
 }
+
+.box {
+  border: 1px solid #000;
+  background-color: tomato;
+  min-height: 75px;
+}

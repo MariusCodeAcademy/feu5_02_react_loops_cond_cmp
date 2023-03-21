@@ -10,9 +10,17 @@ function Grid(props) {
    * props.cols === 1 ? 'cols1 myGrid'
    * kitais atvejais  myGrid
    */
-  function calculateClass() {}
+  function calculateClass() {
+    let finalValue = 'myGrid';
+    if (props.cols === 2) {
+      finalValue += ' cols2';
+    } else if (props.cols === 1) {
+      finalValue += ' cols1';
+    }
+    return finalValue;
+  }
 
   console.log('finalClass ===', finalClass);
-  return <div className={finalClass}>{props.children}</div>;
+  return <div className={calculateClass()}>{props.children}</div>;
 }
 export default Grid;
