@@ -8,7 +8,7 @@ function PostsAside() {
       <PostsAsideHeader />
       <SinglePostAside img={'/img/smoke.jpg'} title={'Denim'} />
       <SinglePostAside img={'/img/cam.jpg'} title={'Sweaters'} isSpecial />
-      <SinglePostAside img={'/img/work.jpg'} title={'Workshop'} />
+      <SinglePostAside img={'/img/work.jpg'} title={'Workshop'} hideSubtitle />
     </div>
   );
 }
