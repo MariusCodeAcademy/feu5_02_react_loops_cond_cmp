@@ -18,3 +18,26 @@ p {
   width: 300px;
   border: 1px solid #000;
 }
+
+/* gridThree */
+
+.gridThree {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.sectionPart {
+  background-color: #fff;
+  padding: 15px;
+}
+
+.sectionPart h3 {
+  font-weight: normal;
+  font-size: 30px;
+  margin-bottom: 0.4em;
+}
+.sectionPart p {
+  line-height: 1.5;
+}

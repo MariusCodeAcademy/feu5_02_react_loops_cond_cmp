@@ -2,6 +2,9 @@ import PostsAside from './components/postsAside/PostsAside';
 import './App.css';
 import Icon from './components/ui/icon/Icon';
 import Button from './components/ui/button/Button';
+import ThreeList from './components/three/ThreeList';
+
+const titleArr = ['About Us', 'Kompanija', 'Kontaktai'];
 
 function App() {
   return (
@@ -11,6 +14,7 @@ function App() {
         <Icon name='shower' lg />
         <Icon name='facebook-official' />
       </h1>
+      <ThreeList list={titleArr} />
       <main>
         <Button>Click</Button>
         <Button>Contact</Button>
