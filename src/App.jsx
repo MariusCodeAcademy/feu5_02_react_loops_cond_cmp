@@ -15,7 +15,7 @@ function App() {
         <Icon name='shower' lg />
         <Icon name='facebook-official' />
       </h1>
-      <Grid>
+      <Grid cols={6}>
         <div className='box'></div>
         <div className='box'></div>
         <div className='box'></div>
