@@ -1,6 +1,7 @@
 import PostsAside from './components/postsAside/PostsAside';
 import './App.css';
 import Icon from './components/ui/icon/Icon';
+import Button from './components/ui/button/Button';
 
 function App() {
   return (
@@ -10,7 +11,11 @@ function App() {
         <Icon name='shower' lg />
         <Icon name='facebook-official' />
       </h1>
-      <main></main>
+      <main>
+        <Button>Click</Button>
+        <Button>Contact</Button>
+        <Button>About</Button>
+      </main>
       <aside className='aside'>
         <PostsAside />
       </aside>
